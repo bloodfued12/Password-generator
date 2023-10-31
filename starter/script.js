@@ -22,7 +22,9 @@ var specialCharacters = [
   '~',
   '-',
   '_',
-  '.'
+  '.',
+  '&',
+  '*'
 ];
 
 // Array of numeric characters to be included in password
@@ -88,21 +90,27 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-// Function to prompt user for password options
+// Function to prompt user for password options with requirements [done]
 function getPasswordOptions() {
-
+  prompt("Press the button below to generate a password that complies with this criteria: At least 8 characters but no more than 128 Character types, Lowercase, Uppercase Numeric, Special characters, " + specialCharacters[8] + specialCharacters[0] + specialCharacters[9] + specialCharacters[22] + specialCharacters[23] + specialCharacters[12] + " etc.");
 }
-
+getPasswordOptions();
 // Function for getting a random element from an array
 function getRandom(arr) {
-return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
+var arrsArr = [specialCharacters, numericCharacters, lowerCasedCharacters, upperCasedCharacters];
+var output;
 // Function to generate password with user input
 function generatePassword() {
+   output = for (var i = 0; i < 8; i++) {
+    getRandom(arrsArr.flat());
+    console.log(output);
+  }
 
 }
-
+generatePassword();
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
 
