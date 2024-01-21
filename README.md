@@ -21,3 +21,5 @@ https://github.com/bloodfued12/Password-generator
 
 The project pages deployment
 https://bloodfued12.github.io/Password-generator/starter/index.html
+
+!["password Generator"](./starter/images/Screenshot%202024-01-21%20120957.png "password Generator")
