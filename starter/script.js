@@ -18,7 +18,7 @@ var upperCasedCharacters = [
 
 // Function to prompt user for password options with requirements [done]
 function getPasswordOptions() {
-  return prompt("Press the button below to generate a password that complies with this criteria: At least 8 characters but no more than 128 Character types, Lowercase, Uppercase Numeric, Special characters, " + specialCharacters[8] + specialCharacters[0] + specialCharacters[9] + specialCharacters[22] + specialCharacters[23] + specialCharacters[12] + " etc.");
+  return alert("Press the button below to generate a password that complies with this criteria: At least 8 characters but no more than 128 Character types, Lowercase, Uppercase Numeric, Special characters, " + specialCharacters[8] + specialCharacters[0] + specialCharacters[9] + specialCharacters[22] + specialCharacters[23] + specialCharacters[12] + " etc.");
 }
 
 // Function for getting a random element from an array
