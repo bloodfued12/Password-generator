@@ -16,3 +16,8 @@ I learnt that you can use functions with array methods to display data to the us
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
+My githhub repo.
+https://github.com/bloodfued12/Password-generator
+
+The project pages deployment
+https://bloodfued12.github.io/Password-generator/starter/index.html
